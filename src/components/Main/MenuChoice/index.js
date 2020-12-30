@@ -14,9 +14,9 @@ export const MenuChoice = () => {
         <MenuChoiceItem />
         <MenuChoiceItem />
       </MenuChoiceBox>
-      {/* <DefaultText>
+      <DefaultText>
         <strong>'USER SETTING'</strong>을 설정해주세요.
-      </DefaultText> */}
+      </DefaultText>
     </MenuChoiceWrap>
   );
 };

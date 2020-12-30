@@ -11,13 +11,11 @@ export const OrderItemWrap = styled.div`
     margin-top: var(--spacing-normal);
   }
 
-  ${
-    (props) => console.log(props.result)
-    // props.result &&
-    // css`
-    //   grid-template-columns: 30px 4.5fr 1fr 2.5fr;
-    // `
-  };
+  ${(props) =>
+    props.result &&
+    css`
+      grid-template-columns: 30px 4.5fr 1fr 2.5fr;
+    `};
 
   @media ${(props) => props.theme.mobile} {
     row-gap: 10px;

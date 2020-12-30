@@ -1,5 +1,4 @@
 {
-  "homepage": "https://forpk.github.io/forpk-toyproject-001",
   "name": "forpk-receiption",
   "version": "0.1.0",
   "private": true,
@@ -42,5 +41,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://forpk.github.io/forpk-toyproject-001/"
 }
