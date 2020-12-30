@@ -9,6 +9,10 @@ const BtnDefault = css`
   border-radius: var(--border-art);
   color: #fff;
   padding: 10px;
+
+  @media ${(props) => props.theme.mobile} {
+    font-size: 18px;
+  }
 `;
 
 export const BtnBigWrap = styled.div`
@@ -20,7 +24,7 @@ export const BtnBigWrap = styled.div`
   }
 `;
 
-export const BtnSmallWrap = styled.span`
+export const BtnSmallWrap = styled.div`
   display: inline-block;
   position: relative;
   max-width: 20px;

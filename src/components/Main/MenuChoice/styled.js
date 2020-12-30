@@ -6,6 +6,6 @@ export const MenuChoiceWrap = styled.div`
 
 export const MenuChoiceBox = styled.ul`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 5px;
 `;

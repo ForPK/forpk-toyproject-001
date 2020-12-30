@@ -15,7 +15,7 @@ export const MenuChoiceItemWrap = styled.li`
 `;
 
 export const MenuChoiceItemName = styled.h4`
-  max-width: 70px;
+  width: 90%;
   ${TextOverflow};
 `;
 

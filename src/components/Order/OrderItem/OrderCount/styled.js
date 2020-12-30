@@ -22,7 +22,11 @@ export const OrderCountInputNum = styled.input`
   padding: 3px;
 `;
 
-export const OrderCountNumWrap = styled.span`
-  display: block;
+export const OrderCountNumWrap = styled.div`
+  color: #777;
   text-align: right;
+
+  @media ${(props) => props.theme.mobile} {
+    text-align: left;
+  }
 `;

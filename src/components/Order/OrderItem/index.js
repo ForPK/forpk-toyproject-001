@@ -9,7 +9,7 @@ export const OrderItem = () => {
   return (
     <OrderItemWrap>
       <OrderIndex />
-      <OrderName>Basic Menu Basic Menu Basic Menu Basic Menu01</OrderName>
+      <OrderName>Basic Menu Basic Menu Basic Menu Basic Menu 01</OrderName>
       <OrderCount />
       <OrderPrice />
       <BtnDeleteWrap />
@@ -19,9 +19,9 @@ export const OrderItem = () => {
 
 export const OrderItemResult = () => {
   return (
-    <OrderItemWrap result>
+    <OrderItemWrap>
       <OrderIndex>001</OrderIndex>
-      <OrderName>Basic Menu Basic Menu Basic Menu Basic Menu01</OrderName>
+      <OrderName>Basic Menu Basic Menu Basic Menu 01</OrderName>
       <OrderCountNum />
       <OrderPrice />
     </OrderItemWrap>

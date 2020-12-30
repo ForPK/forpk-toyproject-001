@@ -6,7 +6,7 @@ export const LogoWrap = styled.h1`
 
   img {
     display: block;
-    width: 80%;
+    width: 70%;
     max-width: 300px;
     margin: 0 auto;
   }

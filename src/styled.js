@@ -198,6 +198,11 @@ export const PageTemplate = styled.div`
   box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.1);
   margin: var(--spacing) auto;
   padding: var(--spacing);
+
+  @media ${(props) => props.theme.mobile} {
+    width: 94%;
+    padding: var(--spacing) var(--spacing-normal);
+  }
 `;
 
 export const TextOverflow = css`
@@ -208,11 +213,16 @@ export const TextOverflow = css`
 `;
 
 export const VerticalMiddle = styled.div`
-  display: inline-block;
   position: absolute;
   top: 50%;
   right: 0;
   left: 0;
   transform: translateY(-50%);
   margin: 0 auto;
+`;
+
+export const VerticalUnset = css`
+  position: unset;
+  top: 0;
+  transform: none;
 `;

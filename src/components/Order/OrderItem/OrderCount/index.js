@@ -26,7 +26,7 @@ export const OrderCountNum = () => {
   return (
     <OrderCountWrap>
       <VerticalMiddle>
-        <OrderCountNumWrap>1</OrderCountNumWrap>
+        <OrderCountNumWrap>+ 1</OrderCountNumWrap>
       </VerticalMiddle>
     </OrderCountWrap>
   );
