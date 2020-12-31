@@ -5,25 +5,14 @@ import { OrderPrice } from "./OrderPrice/index";
 import { BtnDeleteWrap } from "../../Button/index";
 import { OrderIndex } from "./OrderIndex/index";
 
-export const OrderItem = () => {
+export const OrderItem = ({ result }) => {
   return (
-    <OrderItemWrap>
-      <OrderIndex />
-      <OrderName>Basic Menu Basic Menu Basic Menu Basic Menu 01</OrderName>
-      <OrderCount />
-      <OrderPrice />
-      <BtnDeleteWrap />
-    </OrderItemWrap>
-  );
-};
-
-export const OrderItemResult = () => {
-  return (
-    <OrderItemWrap>
+    <OrderItemWrap result={result}>
       <OrderIndex>001</OrderIndex>
-      <OrderName>Basic Menu Basic Menu Basic Menu 01</OrderName>
-      <OrderCountNum />
+      <OrderName>Basic Menu Basic Menu Basic Menu Basic Menu 01</OrderName>
+      {result ? <OrderCountNum /> : <OrderCount />}
       <OrderPrice />
+      {result ? null : <BtnDeleteWrap />}
     </OrderItemWrap>
   );
 };

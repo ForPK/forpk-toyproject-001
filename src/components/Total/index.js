@@ -5,7 +5,7 @@ export const Total = () => {
   return (
     <TotalWrap>
       <TotalTextWrap>Total</TotalTextWrap>
-      <TotalNumWrap>123,000원</TotalNumWrap>
+      <TotalNumWrap>0원</TotalNumWrap>
     </TotalWrap>
   );
 };

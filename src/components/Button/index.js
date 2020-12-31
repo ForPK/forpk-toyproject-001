@@ -16,11 +16,13 @@ import { BsPlus, BsPlusCircleFill } from "react-icons/bs";
 
 export const BtnUserSetting = () => {
   return (
-    <BtnBigWrap>
-      <BtnUserSettingWrap>
-        USER SETTINGS <MdSettings />
-      </BtnUserSettingWrap>
-    </BtnBigWrap>
+    <>
+      <BtnBigWrap>
+        <BtnUserSettingWrap>
+          USER SETTINGS <MdSettings />
+        </BtnUserSettingWrap>
+      </BtnBigWrap>
+    </>
   );
 };
 

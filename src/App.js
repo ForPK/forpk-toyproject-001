@@ -13,8 +13,9 @@ function App() {
       <PageTemplate>
         <Header />
         <Main />
+        {/*         
         <Setting />
-        <Result />
+        <Result /> */}
         <Footer />
       </PageTemplate>
     </>

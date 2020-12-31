@@ -5,7 +5,7 @@ export const Now = () => {
   return (
     <NowWrap>
       <NowItem>ORDER #00846</NowItem>
-      <NowItem>WED 12/16/2020 11:43:49</NowItem>
+      <NowItem>WED 09/20/2020 01:24:29</NowItem>
     </NowWrap>
   );
 };

@@ -6,14 +6,7 @@ import { DefaultText } from "../../Default/index";
 export const MenuChoice = () => {
   return (
     <MenuChoiceWrap>
-      <MenuChoiceBox>
-        <MenuChoiceItem />
-        <MenuChoiceItem />
-        <MenuChoiceItem />
-        <MenuChoiceItem />
-        <MenuChoiceItem />
-        <MenuChoiceItem />
-      </MenuChoiceBox>
+      <MenuChoiceBox>{/* <MenuChoiceItem /> */}</MenuChoiceBox>
       <DefaultText>
         <strong>'USER SETTING'</strong>을 설정해주세요.
       </DefaultText>
