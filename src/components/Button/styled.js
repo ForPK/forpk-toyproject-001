@@ -44,7 +44,7 @@ export const BtnBlack = styled.button`
   background: #000;
 `;
 
-export const BtnMain = styled.button`
+export const BtnHomeCompo = styled.button`
   ${BtnDefault};
   background: var(--color-main);
 `;

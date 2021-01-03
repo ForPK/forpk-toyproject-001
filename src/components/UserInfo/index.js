@@ -1,7 +1,7 @@
 import React from "react";
 import { UserInfoWrap, UserInfoBox, UserInfoItem } from "./styled";
 
-export const UserInfo = () => {
+const UserInfo = () => {
   return (
     <UserInfoWrap>
       <UserInfoBox>
@@ -13,3 +13,5 @@ export const UserInfo = () => {
     </UserInfoWrap>
   );
 };
+
+export default UserInfo;

@@ -1,6 +1,6 @@
 import React from "react";
 import { MenuChoiceWrap, MenuChoiceBox } from "./styled.js";
-import { MenuChoiceItem } from "./MenuChoiceItem/index";
+// import { MenuChoiceItem } from "./MenuChoiceItem/index";
 import { DefaultText } from "../../Default/index";
 
 export const MenuChoice = () => {

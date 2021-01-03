@@ -1,24 +1,20 @@
 import "./App.css";
+import { BrowserRouter } from "react-router-dom";
 import { GlobalStyle, PageTemplate } from "./styled";
-import { Header } from "./components/Header/index";
-import { Main } from "./components/Main/index";
-import { Setting } from "./components/Setting/index";
-import { Result } from "./components/Result/index";
-import { Footer } from "./components/Footer/index";
+import Header from "./components/Header/index";
+import Footer from "./components/Footer/index";
+import Routes from "./components/Router/index";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <GlobalStyle />
       <PageTemplate>
         <Header />
-        <Main />
-        {/*         
-        <Setting />
-        <Result /> */}
+        <Routes />
         <Footer />
       </PageTemplate>
-    </>
+    </BrowserRouter>
   );
 }
 

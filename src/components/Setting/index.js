@@ -6,7 +6,7 @@ import {
 } from "./SettingSection/index";
 import { BtnsWrap } from "../Button/index";
 
-export const Setting = () => {
+const Setting = () => {
   return (
     <SettingWrap>
       <SettingForm>
@@ -17,3 +17,5 @@ export const Setting = () => {
     </SettingWrap>
   );
 };
+
+export default Setting;

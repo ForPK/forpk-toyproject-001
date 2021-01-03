@@ -1,9 +1,9 @@
 import React from "react";
 import { FooterWrap, CopyrightWrap } from "./styled";
-import { UserInfo } from "../UserInfo/index";
+import UserInfo from "../UserInfo/index";
 import { DefaultGit } from "../Default/index";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <FooterWrap>
       <UserInfo />
@@ -12,3 +12,5 @@ export const Footer = () => {
     </FooterWrap>
   );
 };
+
+export default Footer;

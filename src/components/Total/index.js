@@ -1,7 +1,7 @@
 import React from "react";
 import { TotalWrap, TotalTextWrap, TotalNumWrap } from "./styled";
 
-export const Total = () => {
+const Total = () => {
   return (
     <TotalWrap>
       <TotalTextWrap>Total</TotalTextWrap>
@@ -9,3 +9,5 @@ export const Total = () => {
     </TotalWrap>
   );
 };
+
+export default Total;

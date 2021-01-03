@@ -1,7 +1,7 @@
 import React from "react";
 import { NowWrap, NowItem } from "./styled";
 
-export const Now = () => {
+const Now = () => {
   return (
     <NowWrap>
       <NowItem>ORDER #00846</NowItem>
@@ -9,3 +9,5 @@ export const Now = () => {
     </NowWrap>
   );
 };
+
+export default Now;

@@ -1,9 +1,9 @@
 import React from "react";
 import { OrderWrap } from "./styled";
-import { OrderItem, OrderItemResult } from "./OrderItem/index";
+import { OrderItem } from "./OrderItem/index";
 import { DefaultText } from "../Default/index";
 
-export const Order = ({ result }) => {
+const Order = ({ result }) => {
   return (
     <OrderWrap>
       <OrderItem result={result} />
@@ -11,3 +11,5 @@ export const Order = ({ result }) => {
     </OrderWrap>
   );
 };
+
+export default Order;

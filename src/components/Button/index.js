@@ -4,7 +4,7 @@ import {
   BtnUserSettingWrap,
   BtnSmallWrap,
   BtnBlack,
-  BtnMain,
+  BtnHomeCompo,
   BtnPoint,
   BtnAddNutritionWrap,
   BtnAddMenuWrap,
@@ -13,12 +13,17 @@ import { VerticalMiddle } from "../../styled";
 import { MdSettings } from "react-icons/md";
 import { MdCancel } from "react-icons/md";
 import { BsPlus, BsPlusCircleFill } from "react-icons/bs";
+import { useHistory } from "react-router-dom";
 
 export const BtnUserSetting = () => {
+  let history = useHistory();
+  const goSetting = () => {
+    history.push("/setting");
+  };
   return (
     <>
       <BtnBigWrap>
-        <BtnUserSettingWrap>
+        <BtnUserSettingWrap onClick={goSetting}>
           USER SETTINGS <MdSettings />
         </BtnUserSettingWrap>
       </BtnBigWrap>
@@ -26,10 +31,20 @@ export const BtnUserSetting = () => {
   );
 };
 
-export const BtnMainWrap = () => {
+const BtnHome = () => {
+  let history = useHistory();
+
+  const goHome = () => {
+    history.push("/");
+  };
+
+  return <BtnHomeCompo onClick={goHome}>Home</BtnHomeCompo>;
+};
+
+export const BtnHomeWrap = () => {
   return (
     <BtnBigWrap>
-      <BtnMain>MAIN</BtnMain>
+      <BtnHome />
     </BtnBigWrap>
   );
 };
@@ -46,7 +61,7 @@ export const BtnsWrap = () => {
   return (
     <BtnBigWrap>
       <BtnBlack>SAVE</BtnBlack>
-      <BtnMain>MAIN</BtnMain>
+      <BtnHome />
       <BtnPoint>RESET</BtnPoint>
     </BtnBigWrap>
   );
