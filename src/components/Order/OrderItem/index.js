@@ -12,7 +12,7 @@ export const OrderItem = ({ result }) => {
       <OrderName>Basic Menu Basic Menu Basic Menu Basic Menu 01</OrderName>
       {result ? <OrderCountNum /> : <OrderCount />}
       <OrderPrice />
-      {result ? null : <BtnDeleteWrap />}
+      {!result && <BtnDeleteWrap />}
     </OrderItemWrap>
   );
 };
