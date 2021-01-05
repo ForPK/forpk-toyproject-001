@@ -8,4 +8,11 @@ export const NowItem = styled.p`
   text-align: center;
   letter-spacing: var(--letter-spacing);
   line-height: var(--line-height);
+
+  span {
+    display: inline-block;
+  }
+  span + span {
+    margin-left: 5px;
+  }
 `;
